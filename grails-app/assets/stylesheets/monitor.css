@@ -1,0 +1,19 @@
+.title_monitoring{
+    font-weight: bold;
+    padding-left: 10px;
+    margin-bottom: 20px;
+    background: #138496;
+}
+
+.action{
+    margin-left: 10px;
+}
+
+.table_head-monitor{
+    border-color: black;
+    align-items: center;
+}
+
+table, th, td {
+    border: 2px solid;
+}

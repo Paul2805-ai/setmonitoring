@@ -1,0 +1,59 @@
+.header{
+    background: #80bdff;
+    font-size: 30px;
+    font-weight: bold;
+
+}
+
+/* On mouse-over */
+.sidenav a:hover {
+    background-color: #575757;
+}
+
+/* Main content */
+.main {
+    margin-left: 200px;
+    font-size: 20px; /* Increased text to enable scrolling */
+
+}
+
+.title {
+    padding: 20px;
+    background:#80bdff;
+    margin-left: 200px;
+}
+
+table{
+    width: 80%;
+    border-collapse: collapse;
+    margin-left: 170px;
+}
+
+table, th, td {
+    border: 2px solid;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+.active {
+    background-color: green;
+    color: white;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+
+.title_dashboard{
+    padding-left: 10px;
+    background: #138496;
+}
+
